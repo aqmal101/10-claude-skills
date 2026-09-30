@@ -1,0 +1,21 @@
+# Per-project workflow state — regenerated on every skill run, so it churns.
+# Uncomment if you use this repo as a working project rather than a pack.
+# .workflow/
+
+# docs/ and tickets/ are intentionally NOT ignored — the spec and the ticket
+# history are the durable record of why the code looks the way it does.
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
